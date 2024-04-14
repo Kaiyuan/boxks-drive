@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "BOXKS's Drive",
+  title: "BOXKS - Drive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/boxks-drive',
@@ -42,7 +42,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+  protectedRoutes: ['/🔒Data','/🧰TreasureChest'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:sealour@hotmail.com',
@@ -51,18 +51,18 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
-      name: 'GitHub',
-      link: 'https://github.com/kaiyuan',
-    },
-    {
-      name: 'Blog',
-      link: 'https://blog.boxks.com/',
-    },
-    {
-      name: 'Bilibili',
-      link: 'https://space.bilibili.com/434973',
-    },
+      {
+          "name":"Blog",
+          "link":"https://blog.boxks.com/"
+      },
+      {
+            "name":"Github",
+            "link":"https://github.com/Kaiyuan"
+      },
+      {
+            "name":"Bilibili",
+          "link":"https://space.bilibili.com/434973"
+      }
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
